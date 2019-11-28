@@ -18,10 +18,15 @@ public class Person {
     public void setAge(int age){
         this.age = age;
     }
+    public String work(){
+        return "None";
+    }
     @Override
     public String toString(){
         String str = name;
         StringBuffer strBuffer = new StringBuffer(str);
         return("(" + strBuffer.toString() + ", " + age + ")");
     }
+
+
 }

@@ -14,4 +14,8 @@ public class Employee extends Person {
         StringBuffer strBuffer2 = new StringBuffer(com);
         return("(" + strBuffer.toString() + ", " + age + ", " + strBuffer2.toString() + ")");
     }
+    @Override
+    public String work(){
+        return "Manager";
+    }
 }
